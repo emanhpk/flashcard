@@ -76,6 +76,8 @@ android {
 }
 
 dependencies {
+    implementation(project(path = ":common"))
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso)
