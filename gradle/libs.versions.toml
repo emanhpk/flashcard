@@ -2,55 +2,52 @@
 androidGradlePlugin = "8.13.0"
 kotlinPlugin = "2.2.10"
 kspKotlinPlugin = "2.2.10-2.0.2"
-hiltAndroidPlugin = "2.57.1"
+hiltAndroidPlugin = "2.57.2"
 coreKtx = "1.17.0"
 junit = "4.13.2"
-lifecycle = "2.9.3"
+lifecycle = "2.9.4"
 materialDesign = "1.13.0"
-hilt = "2.57.1"
+hilt = "2.57.2"
 legacySupportV4 = "1.0.0"
 appcompat = "1.7.1"
 constraintLayout = "2.2.1"
 constraintLayoutCompose = "1.1.1"
+composePaging = "3.3.6"
 viewpager = "1.1.0"
-androidxJunit = "1.3.0"
-androidxEspresso = "3.7.0"
-androidxHilt = "1.2.0"
-navigation = "2.9.3"
+androidxHilt = "1.3.0"
+navigation = "2.9.5"
 appStartup = "1.2.0"
-workVersion = "2.10.3"
+workVersion = "2.10.5"
 recyclerviewVersion = "1.4.0"
 splashScreenVersion = "1.0.1"
 roomCompiler = "2.7.2"
 roomKtx = "2.7.2"
 roomRuntime = "2.7.2"
-activityCompose = "1.10.1"
+activityCompose = "1.11.0"
 composeBom = "2025.08.01"
 pagingVersion = "3.3.6"
-glide = "5.0.4"
+glide = "5.0.5"
 glideTransformations = "4.3.0"
-glideCompose = "1.0.0-beta07"
+glideCompose = "1.0.0-beta08"
 retrofit = "3.0.0"
 okhttpBom = "5.1.0"
-kotlin = "2.2.10"
-serialization = "2.2.10"
+kotlin = "2.2.20"
+serialization = "2.2.20"
 playServiceVersion = "4.4.3"
 kotlinxSerializationJson = "1.9.0"
 coil3 = "3.3.0"
-lottie = "6.6.7"
+lottie = "6.6.10"
 datastore = "1.1.7"
 firebaseBom = "34.2.0"
 perf = "2.0.1"
 crashlytics = "3.0.6"
 googleAuth = "1.39.0"
-haze = "1.6.10"
 timber = "5.0.1"
 location = "21.3.0"
 
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
-androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidxJunit" }
 design-material = { group = "com.google.android.material", name = "material", version.ref = "materialDesign" }
 google-play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "location" }
 
@@ -62,7 +59,6 @@ androidx-paging-runtime = { module = "androidx.paging:paging-runtime", version.r
 androidx-startup = { group = "androidx.startup", name = "startup-runtime", version.ref = "appStartup" }
 androidx-work-manager = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "workVersion" }
 androidx-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", version.ref = "legacySupportV4" }
-androidx-espresso = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidxEspresso" }
 androidx-splash-screen = { group = "androidx.core", name = "core-splashscreen", version.ref = "splashScreenVersion" }
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
 androidx-app-compat-resource = { group = "androidx.appcompat", name = "appcompat-resources", version.ref = "appcompat" }
@@ -75,7 +71,7 @@ androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
 androidx-compose-ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4" }
 androidx-compose-ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest" }
 androidx-compose-ui = { module = "androidx.compose.ui:ui" }
-androidx-compose-paging = { module = "androidx.paging:paging-compose" }
+androidx-compose-paging = { module = "androidx.paging:paging-compose", version.ref = "composePaging" }
 androidx-compose-ui-graphics = { module = "androidx.compose.ui:ui-graphics" }
 androidx-compose-material3 = { module = "androidx.compose.material3:material3" }
 androidx-compose-viewbinding = { module = "androidx.compose.ui:ui-viewbinding" }
