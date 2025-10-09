@@ -79,8 +79,6 @@ dependencies {
     implementation(project(path = ":common"))
 
     testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso)
     androidTestImplementation(platform(libs.androidx.compose.bom))
 
     debugImplementation(libs.bundles.debug.implementation.compose.ui)
@@ -95,7 +93,6 @@ dependencies {
     implementation(libs.lottie.compose)
     implementation(libs.design.material)
     implementation(libs.google.play.services.location)
-
     implementation(libs.bundles.room)
     implementation(libs.bundles.coil)
     implementation(libs.bundles.glide)
@@ -107,7 +104,6 @@ dependencies {
     implementation(libs.bundles.serialization)
     implementation(libs.bundles.implementation.hilt)
     implementation(libs.bundles.implementation.compose)
-
     implementation(platform(libs.okhttp.bom))
     implementation(platform(libs.firebase.bom))
     implementation(platform(libs.androidx.compose.bom))

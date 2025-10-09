@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">환영합니다</string>
+    <string name="language">언어</string>
+</resources>

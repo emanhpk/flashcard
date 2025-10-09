@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Flashcard: Topic English</string>
+    <string name="app_name" translatable="false">Flashcard: Topic English</string>
+    <string name="welcome">Welcome</string>
+    <string name="language">Language</string>
 </resources>
